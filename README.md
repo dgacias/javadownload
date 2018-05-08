@@ -4,11 +4,13 @@ This script searchs oracle website for avaliable JDK and JRE downloads and.. gue
 **Output:**
 
 $ bash javadownload.sh jdk 10 linux rpm
+
 http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html
 jdk-10.0.1_linux-x64_bin.rpm                       100%[================================================================================================================>] 305,97M  5,22MB/s
 
 
 $ du -sh jdk-10.0.1_linux-x64_bin.rpm 
+
 306M	jdk-10.0.1_linux-x64_bin.rpm
 
 
