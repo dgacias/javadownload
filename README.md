@@ -1,4 +1,14 @@
 # javadownload
+
+THIS SCRIPT IS DEPRECATED:
+Oracle now forces login even when trying to download programatically java, you can see it yourself with:
+
+wget --show-progress --no-cookies --no-check-certificate --header 'Cookie: oraclelicense=accept-securebackup-cookie' https://download.oracle.com/otn/java/jdk/8u212-b10/59066701cf1a433da9770636fbc4c9aa/jdk-8u212-linux-x64.tar.gz
+
+Damn you oracle!
+
+
+EXPLANATION:
 This script searchs oracle website for avaliable JDK and JRE downloads and.. guess what! downloads what you ask for!
 
 **Output:**
